@@ -3,6 +3,7 @@ import { X, Phone, ShieldCheck, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { StudentUser } from '../types';
 import { STOCK_FEMALE_STUDENT } from '../data/mockData';
 import { Language, TRANSLATIONS } from '../utils/translations';
+import { getAssetUrl } from '../utils/assets';
 
 interface AuthModalProps {
   isOpen: boolean;
@@ -111,7 +112,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         <div className="px-6 py-4 border-b border-slate-200 bg-slate-50 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
-              src="/assets/images/logo-neu.png"
+              src={getAssetUrl('assets/images/logo-neu.png')}
               alt="NEU"
               className="w-8 h-8 object-contain"
             />

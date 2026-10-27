@@ -1,7 +1,9 @@
 import { Tutor, CourseFilterOption, Booking, Review, Conversation, Message, AppNotification, StudentUser } from '../types';
+import stockFemaleStudent from '../assets/images/stock_student_portrait_female_1792903823110.jpg';
+import stockMaleStudent from '../assets/images/stock_student_portrait_male_1792903823249.jpg';
 
-export const STOCK_FEMALE_STUDENT = '/src/assets/images/stock_student_portrait_female_1792903823110.jpg';
-export const STOCK_MALE_STUDENT = '/src/assets/images/stock_student_portrait_male_1792903823249.jpg';
+export const STOCK_FEMALE_STUDENT = stockFemaleStudent;
+export const STOCK_MALE_STUDENT = stockMaleStudent;
 
 export const AVAILABLE_COURSES: CourseFilterOption[] = [
   { code: 'LAW102', name: 'Business Law (Luật Kinh Tế)', category: 'Law' },

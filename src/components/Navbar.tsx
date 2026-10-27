@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { AppNotification, StudentUser } from '../types';
 import { Language, TRANSLATIONS } from '../utils/translations';
+import { getAssetUrl } from '../utils/assets';
 
 interface NavbarProps {
   activeNavTab: string;
@@ -63,7 +64,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 className="w-10 h-10 sm:w-11 sm:h-11 rounded-xl overflow-hidden shadow-xs shrink-0 group-hover:scale-105 transition-transform duration-200 border border-[#00528C]/20 bg-[#00528C] flex items-center justify-center"
               >
                 <img
-                  src="/assets/aistudio/PeerNEU_-_2_ea669d64.png"
+                  src={getAssetUrl('assets/aistudio/PeerNEU_-_2_ea669d64.png')}
                   alt="PeerNEU Logo"
                   className="w-full h-full object-cover"
                   loading="eager"
@@ -293,7 +294,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 title="Đại học Kinh tế Quốc dân (NEU Official)"
               >
                 <img
-                  src="/assets/images/logo-neu.png"
+                  src={getAssetUrl('assets/images/logo-neu.png')}
                   alt={t.officialLogoAlt}
                   className="w-8 h-8 sm:w-9 sm:h-9 object-contain group-hover:scale-105 transition-transform drop-shadow-2xs"
                 />
