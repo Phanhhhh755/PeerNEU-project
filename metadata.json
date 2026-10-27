@@ -1,0 +1,6 @@
+{
+  "name": "PeerNEU",
+  "description": "Verified academic peer-tutoring network for NEU students with course-matched tutors, escrow protection, interactive scheduling, messaging, and live calls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

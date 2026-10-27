@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --neu-blue: #00528C;
+  --neu-blue-hover: #003D68;
+  --neu-blue-light: #EBF4FA;
+  --neu-red: #C41212;
+  --neu-gold: #FFC101;
+  --neu-grey: #B2B2B2;
+}
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  h1, h2, h3, h4, .font-support {
+    font-family: 'Mulish', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
